@@ -184,4 +184,10 @@ class AuthController extends BaseController
 
         return $this->sendResponse($getUser->toArray(), 'User profile update successfully.');
     }
+
+    public function getMyMessages(){
+        echo "Hello This is my function!";
+        echo "Hey";
+        die;
+    }
 }
